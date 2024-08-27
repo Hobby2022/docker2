@@ -19,8 +19,8 @@ const GUGU_AUTH = process.env.GUGU_AUTH || '';
 const CFIP = process.env.CFIP || 'skk.moe';
 const CFPORT = process.env.CFPORT || 443;
 const NAME = process.env.NAME || 'Vls';
-const ARGO_PORT = process.env.ARGO_PORT || 28800;
-const PORT = process.env.SERVER_PORT || process.env.PORT || 27000;
+const ARGO_PORT = process.env.ARGO_PORT || 37000;
+const PORT = process.env.SERVER_PORT || process.env.PORT || 36000;
 
 
 if (!fs.existsSync(FILE_PATH)) {
